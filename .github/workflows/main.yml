@@ -17,5 +17,5 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           max-line-length: "120"
-          ignore:  F401, W504
+          ignore: "F401", "W504"
           path: "app"
